@@ -35,3 +35,7 @@ Heroku. From the command line, run:
 cd heroku-rust-cargo-hello
 cf push heroku-rust-cargo-hello -b https://github.com/emk/heroku-buildpack-rust.git
 ```
+
+Target [website][target_website].
+
+[target_website]: https://rust-lang.herokuapp.com/
