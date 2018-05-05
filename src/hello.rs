@@ -8,7 +8,7 @@ use iron::status;
 
 // Serves a string to the user.  Try accessing "/".
 fn hello(_: &mut Request) -> IronResult<Response> {
-    let text = "Арвид, спасибо, выручил, мой первый сервис на расте :-) \n http://rust-lang.org/";
+    let text = "Hello world ver. 1";
     let mut resp = Response::with((status::Ok, text));
     resp.headers.set_raw("Content-Type", vec![b"application/json; charset=utf-8".to_vec()]);
     Ok(resp)
